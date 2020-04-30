@@ -35,11 +35,13 @@
            DISPLAY "ROUND: " "E=" E " H=" H " G=" G .
            ADD E TO I GIVING J SIZE ERROR PERFORM 0001
                                        NOT SIZE ERROR PERFORM 0002.
-           DISPLAY "ROUND: " "E=" E " I=" I " J=" J .
+           DISPLAY "ROUND: " "E=" E " I=" I " J=" J .                           
            STOP RUN.
-
+           
        0001.
        DISPLAY "SIZE ERROR".
        0002.
        DISPLAY "NO SIZE ERROR".
        END PROGRAM VERBS1.
+
+
